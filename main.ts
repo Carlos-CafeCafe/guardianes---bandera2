@@ -8,7 +8,7 @@ function medirDistancia () {
     PingUnit.Centimeters
     )
     basic.showNumber(distancia)
-    if (distancia < 20) {
+    if (distancia != 0 && distancia < 20) {
         alerta = 1
     } else {
         alerta = 0
